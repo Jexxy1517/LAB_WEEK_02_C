@@ -7,8 +7,8 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.lab_week_02_c.R
-import com.example.lab_week_02_c.StandardActivity // Baris ini ditambahkan
-import com.example.lab_week_02_c.SingleTopActivity // Baris ini ditambahkan
+import com.example.lab_week_02_c.StandardActivity
+import com.example.lab_week_02_c.SingleTopActivity
 
 class MainActivity : AppCompatActivity() {
 

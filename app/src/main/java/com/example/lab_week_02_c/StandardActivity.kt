@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lab_week_02_c.R
 
 class StandardActivity : AppCompatActivity() {
 
@@ -25,7 +24,8 @@ class StandardActivity : AppCompatActivity() {
         }
     }
 
-    override fun onNewIntent(intent: Intent?) {
+    // Corrected: Changed Intent? to Intent
+    override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         Log.d(DEBUG, "onNewIntent")
     }

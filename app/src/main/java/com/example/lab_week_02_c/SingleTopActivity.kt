@@ -1,13 +1,10 @@
 package com.example.lab_week_02_c
 
-import android.app.ComponentCaller
 import android.content.Intent
-import android.content.res.Configuration
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lab_week_02_c.R
 
 class SingleTopActivity : AppCompatActivity() {
 
@@ -27,7 +24,8 @@ class SingleTopActivity : AppCompatActivity() {
         }
     }
 
-    override fun onNewIntent(intent: Intent?) {
+    // Change Intent? to Intent
+    override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         Log.d(DEBUG, "onNewIntent")
     }

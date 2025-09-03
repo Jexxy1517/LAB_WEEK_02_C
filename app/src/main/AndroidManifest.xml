@@ -24,14 +24,12 @@
         <activity
             android:name=".StandardActivity"
             android:exported="true"
-            android:launchMode="standard">
-        </activity>
+            android:launchMode="standard" />
 
         <activity
             android:name=".SingleTopActivity"
             android:exported="true"
-            android:launchMode="singleTop">
-        </activity>
+            android:launchMode="singleTop" />
 
     </application>
 
